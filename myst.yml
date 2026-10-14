@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 1005c548-b153-48a7-b97a-3889dd95d663
+  title: Intro to git for Physicists
+  # description:
+  # keywords: []
+  authors: 
+    - name: Freek Pols
+    - name: Rolf Hut
+    - name: Mark Meletto
+  github: https://github.com/Contemporary-Physicslab/gitintro
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  references:
+    TTW: https://book.the-turing-way.org/
+  plugins:
+    - figure-attribution.mjs
+
+
+
+extends:
+  - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/style.yml?ref_type=heads
+  - toc.yml
+
